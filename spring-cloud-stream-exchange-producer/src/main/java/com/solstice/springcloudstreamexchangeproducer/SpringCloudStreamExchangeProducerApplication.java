@@ -14,7 +14,6 @@ public class SpringCloudStreamExchangeProducerApplication implements CommandLine
     @Autowired
     ExchangeBinding exchangeBinding;
 
-
     public static void main(String[] args) {
         SpringApplication.run(SpringCloudStreamExchangeProducerApplication.class, args);
 
